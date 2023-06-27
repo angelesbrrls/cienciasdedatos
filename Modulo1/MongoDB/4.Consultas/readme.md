@@ -1,6 +1,6 @@
 # Consultas sobre una colección
 
-- [x] **Ordenar las canciones por año** (descendente y por nombre del cantante ascendente)
+- [x] **Ordenar las canciones por año empezando por el más actual** (incluimos ordenamiento por cantante)
 
 - Se utiliza la opción de Sort, para realizar el ordenamiento, primero por año en orden descendente, como segundo ordenamiento artist por orden ascendente
 
@@ -8,7 +8,7 @@
 {year: -1, artist: 1}
 ```
 
-![Image.png](https://github.com/angelesbrrls/cienciasdedatos/blob/main/Modulo1/MongoDB/assets/20.png)
+![Image.png](https://github.com/angelesbrrls/cienciasdedatos/blob/main/Modulo1/MongoDB/assets/20.1.png)
 
 _ _ _
 
