@@ -119,6 +119,20 @@ _ _ _
 ![Image.png](https://github.com/angelesbrrls/cienciasdedatos/blob/main/Modulo1/MongoDB/assets/30.png)
 
 De esta manera, se obtiene el género musical con mayor popularidad.
+
+- - -
+
+- [x] **Creación de una vista - Mostrar los 10 primeros géneros con mayor popularidad**
+
+Para crear una vista en la pestaña de agregaciones, seleccionamos guardar y hacemos click en el botón create view.
+
+![Image.png](https://github.com/angelesbrrls/cienciasdedatos/blob/main/Modulo1/MongoDB/assets/45.png)
+Ingresamos el nombre de la vista.
+![Image.png](https://github.com/angelesbrrls/cienciasdedatos/blob/main/Modulo1/MongoDB/assets/46.png)
+Se creará la vista.
+![Image.png](https://github.com/angelesbrrls/cienciasdedatos/blob/main/Modulo1/MongoDB/assets/47.png)
+
+
 _ _ _
 
 - [x] **¿Cuál es el promedio de tiempo de duración de las canciones (en minutos) ?**
