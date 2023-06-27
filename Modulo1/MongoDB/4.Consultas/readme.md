@@ -9,6 +9,7 @@
 ```
 
 ![Image.png](https://github.com/angelesbrrls/cienciasdedatos/blob/main/Modulo1/MongoDB/assets/20.1.png)
+![Image.png](https://github.com/angelesbrrls/cienciasdedatos/blob/main/Modulo1/MongoDB/assets/20.2.png)
 
 _ _ _
 
