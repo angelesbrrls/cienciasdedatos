@@ -124,11 +124,13 @@ De esta manera, se obtiene el género musical con mayor popularidad.
 
 - [x] **Creación de una vista - Mostrar los 10 primeros géneros con mayor popularidad**
 
-> Para crear una vista en la pestaña de agregaciones, seleccionamos guardar y hacemos click en el botón create view.
+- Para crear una vista en la pestaña de agregaciones, seleccionamos guardar y hacemos click en el botón create view.
 ![Image.png](https://github.com/angelesbrrls/cienciasdedatos/blob/main/Modulo1/MongoDB/assets/45.png)
-> Ingresamos el nombre de la vista.
+
+-  Ingresamos el nombre de la vista.
 ![Image.png](https://github.com/angelesbrrls/cienciasdedatos/blob/main/Modulo1/MongoDB/assets/46.png)
-> Se creará la vista.
+
+- Se creará la vista.
 ![Image.png](https://github.com/angelesbrrls/cienciasdedatos/blob/main/Modulo1/MongoDB/assets/47.png)
 
 
