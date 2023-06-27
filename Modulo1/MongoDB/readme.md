@@ -9,3 +9,20 @@
 # Archivo de datos
 
 - [x] [data.csv](https://github.com/angelesbrrls/cienciasdedatos/blob/main/Modulo1/MongoDB/assets/data.csv) Datos de la colección.
+
+## Descripción
+- title. Título o nombre de la canción.
+- artist. Nombre del cantante.
+- top_genre. Género al que pertenece.
+- year. Año de lanzamiento.
+- bpm. Pulsaciones por minuto (unidad empleada para medir el ritmo en música).
+- energy. Energía de una canción (valor más alto más enérgica).
+- danceability. Rítmo (valor más alto , mayor facilidad de ser bailable).
+- dB. Decibelios (ruido percibido, mayor sea el valor, más fuerte será la canción)
+- liveness. Vivacidad (valor más alto, mayor probabilidad de que se trate de una canción en vivo).
+- valence. Valencia (valor más alto, es probable que la canción sea más positiva).
+- duration. Duración de la canción en segundos.
+- acousticness. Acústica (valor más alto, más acústica será la canción).
+- speechiness. Contenido de palabras (valor más alto, más palabras contiene la canción).
+- popularity. Popularidad (valor más alto, más popular será la canción).
+
