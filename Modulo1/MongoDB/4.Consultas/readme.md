@@ -189,7 +189,7 @@ De esta manera, podremos obtener el total de los cantantes de la lista de cancio
 - [x] **Creación de la vista cantantes**
 
 - Para crear una vista en la pestaña de agregaciones, seleccionamos guardar y hacemos click en el botón create view.
-![Image.png](https://github.com/angelesbrrls/cienciasdedatos/blob/main/Modulo1/MongoDB/assets/45.png)
+![Image.png](https://github.com/angelesbrrls/cienciasdedatos/blob/main/Modulo1/MongoDB/assets/51.png)
 
 -  Ingresamos el nombre de la vista.
 ![Image.png](https://github.com/angelesbrrls/cienciasdedatos/blob/main/Modulo1/MongoDB/assets/48.png)
