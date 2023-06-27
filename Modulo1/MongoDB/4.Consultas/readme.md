@@ -184,7 +184,19 @@ El operador $addToSet agrega valores en un array a menos de que el valor ya exis
 De esta manera, podremos obtener el total de los cantantes de la lista de canciones sin repetir.
 
 ![Image.png](https://github.com/angelesbrrls/cienciasdedatos/blob/main/Modulo1/MongoDB/assets/41.1.png)
+- - -
 
+- [x] **Creación de la vista cantantes**
+
+- Para crear una vista en la pestaña de agregaciones, seleccionamos guardar y hacemos click en el botón create view.
+![Image.png](https://github.com/angelesbrrls/cienciasdedatos/blob/main/Modulo1/MongoDB/assets/45.png)
+
+-  Ingresamos el nombre de la vista.
+![Image.png](https://github.com/angelesbrrls/cienciasdedatos/blob/main/Modulo1/MongoDB/assets/48.png)
+
+- Se creará la vista.
+![Image.png](https://github.com/angelesbrrls/cienciasdedatos/blob/main/Modulo1/MongoDB/assets/49.png)
+![Image.png](https://github.com/angelesbrrls/cienciasdedatos/blob/main/Modulo1/MongoDB/assets/50.png)
 _ _ _
 
 
