@@ -144,29 +144,25 @@ _ _ _
 
 - [x] **¿Cuál es la cantidad total de cantantes (sin repetir)?**
 
-- Para realizar esta consulta, hacemos uso de las agregaciones. El Pipeline que utilizamos es **::$unwind → $group → $addFields → $project::** . A continuación describimos cada uno.
+- Para realizar esta consulta, hacemos uso de las agregaciones. El Pipeline que utilizamos es **::$group → $addFields → $project::** . A continuación describimos cada uno.
 
-![Image.png](https://github.com/angelesbrrls/cienciasdedatos/blob/main/Modulo1/MongoDB/assets/35.png)
+![Image.png](https://github.com/angelesbrrls/cienciasdedatos/blob/main/Modulo1/MongoDB/assets/35.1.png)
 
-> Stage 1. $unwind, nos permitirá obtener datos que no contengan valores nulos o vacios del campo artist.
+> Stage 1. $group, agrupamos y limpiamos los documentos, obteniendo los artistas no repetidos.
 
-![Image.png](https://github.com/angelesbrrls/cienciasdedatos/blob/main/Modulo1/MongoDB/assets/36.png)
+![Image.png](https://github.com/angelesbrrls/cienciasdedatos/blob/main/Modulo1/MongoDB/assets/36.1.png)
 
-> Stage 2. $group, agrupamos y limpiamos los documentos, obteniendo los artistas no repetidos.
+> Stage 2. $addFiels, se crea un nuevo campo para calcular el total del array de cantantes.
 
-![Image.png](https://github.com/angelesbrrls/cienciasdedatos/blob/main/Modulo1/MongoDB/assets/37.png)
+![Image.png](https://github.com/angelesbrrls/cienciasdedatos/blob/main/Modulo1/MongoDB/assets/37.1.png)
 
-> Stage 3. $addFiels, se crea un nuevo campo para calcular el total del array de cantantes.
+> Stage 3. $project, se muestra el total de cantantes y la lista de cada uno de ellos.
 
-![Image.png](https://github.com/angelesbrrls/cienciasdedatos/blob/main/Modulo1/MongoDB/assets/38.png)
-
-> Stage 4. $project, se muestra el total de cantantes y la lista de cada uno de ellos.
-
-![Image.png](https://github.com/angelesbrrls/cienciasdedatos/blob/main/Modulo1/MongoDB/assets/39.png)
+![Image.png](https://github.com/angelesbrrls/cienciasdedatos/blob/main/Modulo1/MongoDB/assets/38.1.png)
 
 De esta manera, podremos obtener el total de los cantantes de la lista de canciones sin repetir.
 
-![Image.png](https://github.com/angelesbrrls/cienciasdedatos/blob/main/Modulo1/MongoDB/assets/41.png)
+![Image.png](https://github.com/angelesbrrls/cienciasdedatos/blob/main/Modulo1/MongoDB/assets/39.1.png)
 
 _ _ _
 
