@@ -150,6 +150,10 @@ _ _ _
 
 > Stage 1. $group, agrupamos y limpiamos los documentos, obteniendo los artistas no repetidos.
 
+```other
+El operador $addToSet agrega en un array a menos de que el valor ya exista (en caso de que ya exista el valor no lo agregará).
+ ```
+
 ![Image.png](https://github.com/angelesbrrls/cienciasdedatos/blob/main/Modulo1/MongoDB/assets/36.1.png)
 
 > Stage 2. $addFiels, se crea un nuevo campo para calcular el total del array de cantantes.
