@@ -162,7 +162,7 @@ _ _ _
 
 De esta manera, podremos obtener el total de los cantantes de la lista de canciones sin repetir.
 
-![Image.png](https://github.com/angelesbrrls/cienciasdedatos/blob/main/Modulo1/MongoDB/assets/39.1.png)
+![Image.png](https://github.com/angelesbrrls/cienciasdedatos/blob/main/Modulo1/MongoDB/assets/41.1.png)
 
 _ _ _
 
