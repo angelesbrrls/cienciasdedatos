@@ -41,6 +41,41 @@ limit: 1
 ```
 _ _ _
 
+- [x] **¿Cuáles son las 10 canciones más positivas?** 
+
+```other
+filter: 
+project: {title: 1, artist: 1, top_genre: 1, valence: 1}
+sort: {valence: -1}
+limit: 10
+```
+
+- Se utiliza la opción project para incluir los campos que se requieren mostrar y sort en orden descendente para ordenar  el campo valence ( mayor a menor), finalmente se hace uso de limit 10.
+
+![Imagen 42](https://github.com/angelesbrrls/cienciasdedatos/blob/main/Modulo1/MongoDB/assets/42.png)
+![Imagen 43](https://github.com/angelesbrrls/cienciasdedatos/blob/main/Modulo1/MongoDB/assets/43.png)
+
+De este manera, se obtiene las 10 canciones más positivas del set de datos.
+
+- - -
+
+- [x] **¿Cuáles son las 5 canciones con mayor rítmo (con más probalidad de que se pueda bailar)?** 
+
+```other
+filter: 
+project: {title: 1, artist: 1, top_genre: 1, danceability: 1}
+sort: {danceability: -1}
+limit: 5
+```
+
+- Se utiliza la opción project para incluir los campos que se requieren mostrar y sort en orden descendente para ordenar  el campo danceability del  mayor al menos valor, finalmente se hace uso de limit 5.
+
+![Imagen 44](https://github.com/angelesbrrls/cienciasdedatos/blob/main/Modulo1/MongoDB/assets/44.png)
+
+De este manera, se obtiene las 5 canciones con más probabilidad de ser bailable del set de datos.
+
+- - -
+
 - [x] **Obtener los primeros tres años con mayor número de lanzamientos**
 
 - Para realizar esta consulta, hacemos uso de las agregaciones. El Pipeline que utilizamos es **::$group → $sort → $limit::**. A continuación describimos cada uno.
